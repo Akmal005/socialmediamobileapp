@@ -1,0 +1,24 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Back-End (server) for Social Media App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.17.0"
+  },
+  "author": "Akmal Azizkulov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
